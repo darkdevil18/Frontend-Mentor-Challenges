@@ -28,7 +28,3 @@ Users should be able to:
 - CSS Grid
 - [Bootstrap](https://getbootstrap.com/)- CSS Framework
 
-## Author
-
-- Frontend Mentor - [@darkdevil18](https://www.frontendmentor.io/profile/darkdevil18)
-
