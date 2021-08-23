@@ -36,33 +36,35 @@
 <body>
 
 	<div class="container">
-		<div class="card text-center" style="width: 350px; border-radius: 16px;">
-			<img src="/images/illustration-hero.svg" class="card-img-top" alt="...">
-			<div class="card-body">
+		<div class="card text-center" style="width: 400px; border-radius: 17px;">
+			<img src="/order-summary-component-main/images/illustration-hero.svg" class="card-img-top" alt="...">
+			<div class="card-body mt-3">
 				<div class="container">
-					<div class="container">
+					<div class="container mt-3 mb-3">
 						<h5 class="card-title">Order Summary</h5>
-						<p class="card-text text-secondary">You can now listen to millions of songs, audiobooks, and
+						<p class="card-text text-secondary m-3 text-center">You can now listen to millions of songs, audiobooks, and
 							podcasts on
 							any
 							device anywhere you like!</p>
 					</div>
 
-					<div class="container">
-						<div class="container payment-y d-flex p-2 mt-3 mb-3 justify-content-between p-2">
-							<div class="d-flex">
-								<img src="/images/icon-music.svg" alt="music-icon">
+					<div class="container rounded-3 p-2 mt-3 mb-3">
+						<div class="container h-50 payment-y d-flex justify-content-between p-2">
+							<div class="d-flex align-items-center">
+								<img src="/order-summary-component-main/images/icon-music.svg" alt="music-icon" class="ms-2">
 								<div class="text-center d-flex flex-column ms-3">
-									<span>Annual Plan</span>
-									<span>$59.99/year</span>
+									<div class="plan">Annual Plan</div>
+									<div class="price text-secondary">$59.99/year</div>
 								</div>
 							</div>
-							<a href="#" class="ms-5">Change</a>
+							<a href="#" class="ms-5 pe-3">Change</a>
 						</div>
 					</div>
-					<a href="#" class="btn btn-primary">Proceed to Payment</a>
+					<div class="container">
+						<a href="#" class="btn btn-lg btn-primary mt-3 mb-3 w-100">Proceed to Payment</a>
+					</div>
 				</div>
-				<a href="#">Cancel Order</a>
+				<a href="#" class="link-primary mb-3" style="text-decoration: none;">Cancel Order</a>
 			</div>
 		</div>
 	</div>

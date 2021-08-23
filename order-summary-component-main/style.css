@@ -1,6 +1,6 @@
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-image: url(../images/pattern-background-desktop.svg);
+  background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8,8 +8,9 @@ body {
 }
 
 .card {
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 23%);
 }
 
 .card-title {
@@ -19,20 +20,21 @@ body {
 .card-text {
   font-size: 16px;
   font-weight: 500;
+  letter-spacing: 0px;
 }
 .card img {
   border-radius: 16px 16px 0 0;
-  size: 50%;
 }
 
 .btn {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   background-color: hsl(245, 75%, 52%);
 }
 
 .payment-y {
-    background-color: hsl(224, 23%, 55%);
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
 }
 
 a{
@@ -42,5 +44,20 @@ a{
 
 .payment-y a{
     top:50%;
-    transform: translateY(50%);
+    transform: translateY(35%);
+}
+
+.payment-y img{
+  width: 35px;
+  height: 35px;
+}
+
+.plan{
+  font-size: 12;
+  font-weight: 900;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 12px;
 }
